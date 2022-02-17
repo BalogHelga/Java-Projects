@@ -1,0 +1,5 @@
+ Factura Wed May 26 17:32:34 EEST 2021
+ Clientul cu numele maria a plasat comanda cu id-ul: 5068. Total:216.0$
+Spicy Pickled Shallots 
+Toasted Corn Crisps 
+Seeded Whole Grain Soda Bread 
