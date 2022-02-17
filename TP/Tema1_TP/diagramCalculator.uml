@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1614.6576576576579" y="650.0">calculator.Calculator</node>
+    <node x="1505.0" y="330.0">controller.Controller.ClearListener1</node>
+    <node x="1128.0" y="330.0">controller.Controller.ClearListener2</node>
+    <node x="156.0" y="330.0">controller.Controller.IntegrateListener</node>
+    <node x="556.0" y="330.0">controller.Controller.ClearListenerAll</node>
+    <node x="887.3444492879977" y="550.0">controller.Controller</node>
+    <node x="752.0" y="330.0">controller.Controller.DivideListener</node>
+    <node x="1686.0" y="330.0">view.View</node>
+    <node x="0.0" y="330.0">controller.Controller.AddListener</node>
+    <node x="932.0" y="330.0">controller.Controller.DerivateListener</node>
+    <node x="1308.0" y="330.0">controller.Controller.SubtractListener</node>
+    <node x="360.0" y="330.0">controller.Controller.MultiplyListener</node>
+    <node x="820.085990368249" y="0.0">model.Monom</node>
+    <node x="786.085990368249" y="80.0">model.Polinom</node>
+    <node x="1639.6576576576579" y="220.0">model.Model</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.Polinom" target="model.Monom">
+      <point x="-13.0" y="-15.0" />
+      <point x="825.085990368249" y="60.0" />
+      <point x="842.085990368249" y="60.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="controller.Controller.ClearListener1" target="controller.Controller">
+      <point x="0.0" y="15.0" />
+      <point x="1585.0" y="490.0" />
+      <point x="996.7638041267073" y="490.0" />
+      <point x="45.41935483870964" y="-15.0" />
+    </edge>
+    <edge source="controller.Controller.SubtractListener" target="model.Polinom">
+      <point x="44.0" y="-15.0" />
+      <point x="1440.0" y="310.0" />
+      <point x="1401.5" y="310.0" />
+      <point x="1401.5" y="170.0" />
+      <point x="871.5145617968203" y="170.0" />
+      <point x="33.428571428571445" y="15.0" />
+    </edge>
+    <edge source="controller.Controller.MultiplyListener" target="controller.Controller">
+      <point x="0.0" y="15.0" />
+      <point x="448.0" y="460.0" />
+      <point x="918.3121912234816" y="460.0" />
+      <point x="-33.0322580645161" y="-15.0" />
+    </edge>
+    <edge source="controller.Controller.ClearListenerAll" target="controller.Controller">
+      <point x="0.0" y="15.0" />
+      <point x="644.0" y="430.0" />
+      <point x="930.6992879976751" y="430.0" />
+      <point x="-20.645161290322562" y="-15.0" />
+    </edge>
+    <edge source="controller.Controller.IntegrateListener" target="controller.Controller">
+      <point x="0.0" y="15.0" />
+      <point x="248.0" y="490.0" />
+      <point x="905.925094449288" y="490.0" />
+      <point x="-45.41935483870964" y="-15.0" />
+    </edge>
+    <edge source="controller.Controller.AddListener" target="model.Polinom">
+      <point x="-34.0" y="-15.0" />
+      <point x="34.0" y="310.0" />
+      <point x="62.5" y="310.0" />
+      <point x="62.5" y="130.0" />
+      <point x="789.8002760825345" y="130.0" />
+      <point x="-48.285714285714334" y="15.0" />
+    </edge>
+    <edge source="controller.Controller.DerivateListener" target="model.Polinom">
+      <point x="-44.0" y="-15.0" />
+      <point x="976.0" y="310.0" />
+      <point x="1014.5" y="310.0" />
+      <point x="1014.5" y="200.0" />
+      <point x="849.2288475111061" y="200.0" />
+      <point x="11.14285714285711" y="15.0" />
+    </edge>
+    <edge source="controller.Controller.DivideListener" target="controller.Controller">
+      <point x="0.0" y="15.0" />
+      <point x="832.0" y="400.0" />
+      <point x="943.0863847718687" y="400.0" />
+      <point x="-8.258064516129025" y="-15.0" />
+    </edge>
+    <edge source="controller.Controller.SubtractListener" target="controller.Controller">
+      <point x="58.66666666666674" y="15.0" />
+      <point x="1454.666666666667" y="460.0" />
+      <point x="984.3767073525138" y="460.0" />
+      <point x="33.0322580645161" y="-15.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Controller.DerivateListener">
+      <point x="0.0" y="-15.0" />
+      <point x="951.3444492879977" y="380.0" />
+      <point x="961.3333333333333" y="380.0" />
+      <point x="-58.66666666666674" y="15.0" />
+    </edge>
+    <edge source="controller.Controller.MultiplyListener" target="model.Polinom">
+      <point x="44.0" y="-15.0" />
+      <point x="492.0" y="310.0" />
+      <point x="453.5" y="310.0" />
+      <point x="453.5" y="180.0" />
+      <point x="826.9431332253919" y="180.0" />
+      <point x="-11.14285714285711" y="15.0" />
+    </edge>
+    <edge source="model.Model" target="model.Polinom">
+      <point x="-33.0" y="-15.0" />
+      <point x="1650.6576576576579" y="160.0" />
+      <point x="878.9431332253919" y="160.0" />
+      <point x="40.85714285714289" y="15.0" />
+    </edge>
+    <edge source="view.View" target="model.Model">
+      <point x="-20.0" y="-15.0" />
+      <point x="1706.0" y="300.0" />
+      <point x="1676.3243243243246" y="300.0" />
+      <point x="-7.3333333333332575" y="15.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Controller.AddListener">
+      <point x="-61.93548387096769" y="-15.0" />
+      <point x="889.40896541703" y="530.0" />
+      <point x="22.666666666666742" y="530.0" />
+      <point x="-45.33333333333334" y="15.0" />
+    </edge>
+    <edge source="controller.Controller" target="view.View">
+      <point x="57.806451612903174" y="-15.0" />
+      <point x="1009.1509009009009" y="520.0" />
+      <point x="1696.0" y="520.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="controller.Controller.DerivateListener" target="controller.Controller">
+      <point x="58.66666666666674" y="15.0" />
+      <point x="1078.6666666666667" y="400.0" />
+      <point x="959.6025138041267" y="400.0" />
+      <point x="8.258064516129025" y="-15.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Controller.ClearListenerAll">
+      <point x="-24.774193548387075" y="-15.0" />
+      <point x="926.5702557396106" y="440.0" />
+      <point x="585.3333333333334" y="440.0" />
+      <point x="-58.66666666666663" y="15.0" />
+    </edge>
+    <edge source="calculator.Calculator" target="view.View">
+      <point x="10.666666666666742" y="-15.0" />
+      <point x="1689.3243243243246" y="610.0" />
+      <point x="1756.25" y="610.0" />
+      <point x="30.0" y="15.0" />
+    </edge>
+    <edge source="calculator.Calculator" target="controller.Controller">
+      <point x="-53.33333333333326" y="-15.0" />
+      <point x="1625.3243243243246" y="630.0" />
+      <point x="919.3444492879977" y="630.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Controller.DivideListener">
+      <point x="-12.387096774193537" y="-15.0" />
+      <point x="938.9573525138042" y="410.0" />
+      <point x="778.6666666666667" y="410.0" />
+      <point x="-53.333333333333314" y="15.0" />
+    </edge>
+    <edge source="model.Model" target="model.Monom">
+      <point x="33.0" y="-15.0" />
+      <point x="1716.6576576576579" y="200.0" />
+      <point x="1711.1576576576579" y="200.0" />
+      <point x="1711.1576576576579" y="50.0" />
+      <point x="900.7526570349155" y="50.0" />
+      <point x="36.66666666666663" y="15.0" />
+    </edge>
+    <edge source="controller.Controller.ClearListener2" target="controller.Controller">
+      <point x="0.0" y="15.0" />
+      <point x="1208.0" y="420.0" />
+      <point x="967.8605783202557" y="420.0" />
+      <point x="16.51612903225805" y="-15.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Controller.MultiplyListener">
+      <point x="-37.16129032258061" y="-15.0" />
+      <point x="914.1831589654171" y="470.0" />
+      <point x="389.33333333333337" y="470.0" />
+      <point x="-58.66666666666663" y="15.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Controller.SubtractListener">
+      <point x="24.774193548387075" y="-15.0" />
+      <point x="976.1186428363848" y="440.0" />
+      <point x="1337.3333333333335" y="440.0" />
+      <point x="-58.66666666666674" y="15.0" />
+    </edge>
+    <edge source="calculator.Calculator" target="model.Model">
+      <point x="53.33333333333326" y="-15.0" />
+      <point x="1731.9909909909911" y="630.0" />
+      <point x="1787.5" y="630.0" />
+      <point x="1787.5" y="270.0" />
+      <point x="1720.3243243243246" y="270.0" />
+      <point x="36.66666666666674" y="15.0" />
+    </edge>
+    <edge source="controller.Controller" target="model.Model">
+      <point x="53.67741935483866" y="-15.0" />
+      <point x="1005.0218686428364" y="510.0" />
+      <point x="1675.5" y="510.0" />
+      <point x="1675.5" y="310.0" />
+      <point x="1661.6576576576579" y="310.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Controller.ClearListener2">
+      <point x="12.387096774193537" y="-15.0" />
+      <point x="963.7315460621912" y="410.0" />
+      <point x="1154.666666666667" y="410.0" />
+      <point x="-53.33333333333326" y="15.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Controller.ClearListener1">
+      <point x="41.290322580645125" y="-15.0" />
+      <point x="992.6347718686428" y="480.0" />
+      <point x="1531.6666666666667" y="480.0" />
+      <point x="-53.333333333333336" y="15.0" />
+    </edge>
+    <edge source="controller.Controller.DivideListener" target="model.Polinom">
+      <point x="-40.0" y="-15.0" />
+      <point x="792.0" y="310.0" />
+      <point x="826.5" y="310.0" />
+      <point x="826.5" y="190.0" />
+      <point x="834.3717046539632" y="190.0" />
+      <point x="-3.7142857142857792" y="15.0" />
+    </edge>
+    <edge source="controller.Controller.AddListener" target="controller.Controller">
+      <point x="45.33333333333337" y="15.0" />
+      <point x="113.33333333333337" y="510.0" />
+      <point x="897.667029933159" y="510.0" />
+      <point x="-53.67741935483866" y="-15.0" />
+    </edge>
+    <edge source="controller.Controller.IntegrateListener" target="model.Polinom">
+      <point x="46.0" y="-15.0" />
+      <point x="294.0" y="310.0" />
+      <point x="253.5" y="310.0" />
+      <point x="253.5" y="160.0" />
+      <point x="812.085990368249" y="160.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Controller.IntegrateListener">
+      <point x="-49.54838709677415" y="-15.0" />
+      <point x="901.7960621912235" y="500.0" />
+      <point x="186.66666666666663" y="500.0" />
+      <point x="-61.33333333333337" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="990.8333333333333" y="335.00000000000006" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
